@@ -1,6 +1,6 @@
 This is a read me for a textbased application to connect to a postgresql database.
 
-The video demonstrating everything about this can be found through this link: [not uploaded yet]
+The video demonstrating everything about this can be found through this link: https://www.youtube.com/watch?v=R5xOYX9Hz7c
 
 To use, go to the app folder and the src folder, and run the code in a java compiler of your choice.
 You will be asked if you are running this as a member, a trainer, or an admin. 
