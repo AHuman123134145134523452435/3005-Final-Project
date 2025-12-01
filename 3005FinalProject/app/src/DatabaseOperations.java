@@ -307,7 +307,7 @@ public class DatabaseOperations {
         if (type.equalsIgnoreCase("classes")) {
             SQL = "update rooms set class_id = array_append(class_id, ?) where room_number = ?";
         } else {
-            SQL = "update rooms set class_id = array_append(session_id, ?) where room_number = ?";
+            SQL = "update rooms set session_id = array_append(session_id, ?) where room_number = ?";
         }
         try (Connection conn = DriverManager.getConnection(url, user, password);
              PreparedStatement pstmt = conn.prepareStatement(SQL)) {
